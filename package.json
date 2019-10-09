@@ -1,6 +1,6 @@
 {
   "name": "@saulx/get-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib",
   "scripts": {
     "format": "prettier --write '{lib,test}/**/*.{js,json}'",
