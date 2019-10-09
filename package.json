@@ -1,7 +1,11 @@
 {
   "name": "@saulx/get-package",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atelier-saulx/get-package.git"
+  },
   "scripts": {
     "format": "prettier --write '{lib,test}/**/*.{js,json}'",
     "lint": "eslint '{lib,test}/**/*.js' --fix",
