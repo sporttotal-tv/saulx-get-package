@@ -4,7 +4,6 @@ Get the nearest package.json
 
 ```javascript
 import getPkg from 'get-package'
-
 // defaults to process.cwd()
 getPkg().then(pkg => {
   console.log(pkg)
