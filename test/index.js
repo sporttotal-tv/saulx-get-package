@@ -25,6 +25,16 @@ cannot find parsed browser /Users/jim/saulx/v2/apps/app/src/hub
 cannot find parsed browser /Users/jim/saulx/v2/apps/app/src/App
 */
 
+// /Users/jim/saulx/v2/apps/app/server.js
+
+getPackagePath('/Users/jim/saulx/v2/apps/app/server.js')
+  .then(v => {
+    console.log(v)
+  })
+  .catch(err => {
+    console.log(Error)
+  })
+
 getPackagePath(path.join(process.cwd(), 'test/server.js'))
   .then(v => {
     console.log(v)

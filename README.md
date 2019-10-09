@@ -2,7 +2,7 @@
 
 Get the nearest package.json
 
-## Default
+### Default
 
 ```javascript
 import getPkg from 'get-package'
@@ -17,7 +17,7 @@ getPkg().then(pkg => {
 })
 ```
 
-## getPackagePath
+### getPackagePath
 
 ```javascript
 import { getPackagePath } from 'get-package'
