@@ -11,7 +11,7 @@ getPkg('from-some-path').then(pkg => {
   console.log(pkg)
 })
 
-// defaults to process.cwd()
+// Not passing a path defaults to process.cwd()
 getPkg().then(pkg => {
   console.log(pkg)
 })
