@@ -1,0 +1,32 @@
+{
+  "name": "@saulx/get-package",
+  "version": "1.0.0",
+  "main": "lib",
+  "scripts": {
+    "format": "prettier --write '{lib,test}/**/*.{js,json}'",
+    "lint": "eslint '{lib,test}/**/*.js' --fix",
+    "test": "node ./test"
+  },
+  "pre-commit": [
+    "format",
+    "lint"
+  ],
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "extends": [
+      "standard",
+      "standard-react",
+      "prettier"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.18.2",
+    "standard": "^14.3.1"
+  }
+}
